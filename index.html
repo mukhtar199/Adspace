@@ -1,13 +1,13 @@
-
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="so">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="تأشيرات, تذاكر سفر, الحج والعمرة, كينيا, مصر, السعودية, عروض تأشيرات">
+  <meta name="keywords" content="fiisooyin, tigidhada safarka, xajka iyo cumrada, Kenya, Masar, Sacuudiga, dalacsiin fiisaha">
   <meta name="author" content="AdSpace - Al-Maqaam">
-  <meta name="description" content="موقع AdSpace يقدم أفضل عروض التأشيرات والتذاكر بخصومات تصل إلى 50%.">
+  <meta name="description" content="AdSpace waxay bixisaa dalacsiimo fiisooyin iyo tigidhada safar oo gaaraya ilaa 50% qiimo dhimis.">
   <title>AdSpace</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <style>
@@ -34,37 +34,37 @@
 </head>
 <body>
   <header class="hero">
-    <h1>احصل على تأشيرتك بأسهل طريقة!</h1>
-    <p class="lead">نحن نساعدك في استخراج تأشيرة السفر بسهولة وبدون عناء</p>
-    <a href="#contact" class="btn btn-warning btn-lg mt-3">احجز الآن</a>
-    <a href="#contact" class="btn btn-light btn-lg mt-3">تواصل معنا</a>
+    <h1>Hel fiisadaada si fudud!</h1>
+    <p class="lead">Waxaan kaa caawinaynaa inaad hesho fiiso safar adigoon dhibin</p>
+    <a href="#contact" class="btn btn-warning btn-lg mt-3">Dalbo Hadda</a>
+    <a href="#contact" class="btn btn-light btn-lg mt-3">Nala Soo Xiriir</a>
   </header>
 
   <section class="features text-center">
     <div class="container">
-      <h2 class="mb-4">عروضنا الخاصة</h2>
+      <h2 class="mb-4">Dalacsiimadeenna Gaarka ah</h2>
       <div class="row">
         <div class="col-md-4 mb-3">
           <div class="card shadow-sm">
             <div class="card-body">
-              <h5 class="card-title">دول افريقية - خصم 50%</h5>
-              <p class="card-text">احصل على تأشيرتك لمصر بسرعة وسهولة.</p>
+              <h5 class="card-title">Wadamada Afrika - 50% qiimo dhimis</h5>
+              <p class="card-text">Hel fiisadaada Masar si dhakhso ah oo fudud.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-3">
           <div class="card shadow-sm">
             <div class="card-body">
-              <h5 class="card-title">مصر و كينيا و اغوندا - خصم 50%</h5>
-              <p class="card-text">عروض حصرية للتأشيرات السياحية إلى كينيا.</p>
+              <h5 class="card-title">Masar, Kenya & Uganda - 50% qiimo dhimis</h5>
+              <p class="card-text">Dalacsiimo gaar ah oo loogu talagalay fiisooyinka dalxiiska Kenya.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-3">
           <div class="card shadow-sm">
             <div class="card-body">
-              <h5 class="card-title">السعودية - خصم 90%</h5>
-              <p class="card-text">أقوى عروض الحج والعمرة لهذا الموسم.</p>
+              <h5 class="card-title">Sacuudi Carabiya - 90% qiimo dhimis</h5>
+              <p class="card-text">Dalacsiinta ugu xoogan ee xajka & cumrada xilli ciyaareedkan.</p>
             </div>
           </div>
         </div>
@@ -73,50 +73,52 @@
   </section>
 
   <section id="contact" class="container my-5">
-    <h2 class="text-center mb-4">نموذج التواصل</h2>
+    <h2 class="text-center mb-4">Foomka Xiriirka</h2>
     <div class="contact-form shadow">
-      <form action="thankyou.html" method="post">
+      <form action="https://formsubmit.co/adspace119@gmail.com" method="POST">
+       <input type="hidden" name="_next" value="thankyou.html">
+       <input type="hidden" name="_captcha" value="false">
         <div class="mb-3">
-          <label class="form-label">الاسم</label>
-          <input type="text" class="form-control" required />
+          <label class="form-label">Magaca</label>
+          <input type="text" class="form-control" name="name" required />
         </div>
         <div class="mb-3">
-          <label class="form-label">الدولة</label>
-          <input type="text" class="form-control" required />
+          <label class="form-label">Dalka</label>
+          <input type="text" class="form-control" name="country" required />
         </div>
         <div class="mb-3">
-          <label class="form-label">رقم الهاتف</label>
-          <input type="tel" class="form-control" required />
+          <label class="form-label">Lambarka Taleefanka</label>
+          <input type="tel" class="form-control" name="phone" required />
         </div>
         <div class="mb-3">
-          <label class="form-label">البريد الإلكتروني</label>
-          <input type="email" class="form-control" required />
+          <label class="form-label">Emailka</label>
+          <input type="email" class="form-control" name="email" required />
         </div>
         <div class="mb-3">
-          <label class="form-label">نوع الخدمة</label>
-          <select class="form-select">
-            <option>تأشيرة</option>
-            <option>تذكرة</option>
-            <option>تأشيرة + تذكرة</option>
+          <label class="form-label">Nooca Adeegga</label>
+          <select class="form-select" name="service">
+            <option>Fiiso</option>
+            <option>Tigidho</option>
+            <option>Fiiso + Tigidho</option>
           </select>
         </div>
         <div class="mb-3">
-          <label class="form-label">رسالة إضافية</label>
-          <textarea class="form-control" rows="3"></textarea>
+          <label class="form-label">Fariin Dheeraad ah</label>
+          <textarea class="form-control" rows="3" name="message"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary w-100">إرسال</button>
+        <button type="submit" class="btn btn-primary w-100">Dir <i class="bi bi-send-fill ms-2"></i></button>
       </form>
     </div>
   </section>
 
   <footer class="text-center bg-dark text-white p-4 mt-5">
-    <p>تابعنا على:</p>
+    <p>Nagala soco:</p>
     <p>
-      <a href="tel:+252612494952" class="text-white me-2">Phone</a>
+      <a href="tel:+252612494952" class="text-white me-2">Taleefan</a>
       <a href="https://wa.me/252612494952" class="text-white me-2">WhatsApp</a>
-      <a href="www.snapchat.com/add/Adspace119" class="text-white">Snapchat</a>
+      <a href="https://www.snapchat.com/add/Adspace119" class="text-white">Snapchat</a>
     </p>
-    <p>© 2025 Al-Maqaam. جميع الحقوق محفوظة.</p>
+    <p>© 2025 Al-Maqaam. Dhammaan xuquuqda way dhawrsan yihiin.</p>
   </footer>
 
 </body>
